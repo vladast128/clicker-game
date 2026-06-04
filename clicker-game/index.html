@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кликер</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Кликер</h1>
+
+    <div class="score">
+        Монеты: <span id="score">0</span>
+    </div>
+
+    <button id="clickButton">
+        КЛИК
+    </button>
+
+    <div class="shop">
+        <button id="upgradeButton">
+            Улучшить клик (+1)
+            <br>
+            Цена: <span id="upgradeCost">10</span>
+        </button>
+    </div>
+	
+	<div class="shop">
+    <button id="autoClickerButton">
+        Купить автокликер
+        <br>
+        Цена: <span id="autoClickerCost">40</span>
+        <br>
+        Доход: <span id="autoClickerPower">0</span>/сек
+    </button>
+</div>
+
+    <div class="controls">
+        <button id="resetButton">
+            Сбросить прогресс
+        </button>
+    </div>
+	
+    <audio id="clickSound" src="sounds/click.mp3"></audio>
+<audio id="upgradeSound" src="sounds/upgrade.mp3"></audio>
+	
+    <script src="script.js"></script>
+
+</body>
+</html>

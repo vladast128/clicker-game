@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: white;
+    margin-top: 50px;
+}
+
+.score {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#clickButton {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#clickButton:active {
+    transform: scale(0.9);
+}
+
+.shop,
+.controls {
+    margin-top: 25px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
